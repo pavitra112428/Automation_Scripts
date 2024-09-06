@@ -22,8 +22,6 @@ public class demo_class {
 		driver.get("");
 		driver.manage().window().maximize();
 		
-		
-		
 	}
 	
 	@Test
@@ -31,15 +29,11 @@ public class demo_class {
 	{
 		//boolean status = driver.findElement(By.xpath("By.xpath(\"//span[@aria-label=\\\"BEAUTY\\\"]\"")).isDisplayed();
               //Assert.assertEquals(status, null);
-               
-            
-             
-	         
-	} 
+   	} 
 	@Test
 	void loginpage()
 	{
-		
+		System.out.println("Automation");
 	}
 	@Test
 	void mainsearch()
