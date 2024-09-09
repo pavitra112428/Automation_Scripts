@@ -12,6 +12,8 @@ import org.testng.annotations.*;
 
 public class Login_testcase {
 	WebDriver driver;
+	
+	
 	@BeforeClass //it will execute only one time 
 	void setup()
 	{
